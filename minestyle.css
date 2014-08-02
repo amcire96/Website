@@ -1,0 +1,110 @@
+html{
+    height:100%;
+}
+
+body{
+    overflow:hidden;
+    background-image:url("background.png");
+    height:100%;
+}
+
+#logo {
+    width:150px;
+    height:60px; 
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0 0 0;
+}
+
+nav li {
+    display: inline;
+    border: solid;
+    border-width: 1px 1px 0 1px;
+    margin: 0 5px 0 0;
+    background-color:#0066CC;
+    font-size: xx-large; 
+    padding: 0px 5px 0px 5px;  
+}
+
+nav li a {
+    padding: 0 10px;
+    color: #990000;
+
+}
+
+#content {
+    border: 1px solid;
+    clear: both;
+    background-color:#eeeeee;
+    overflow:scroll;
+}
+
+#information{
+
+    width:50%;
+    float:left;
+    margin: 30px 35px 35px 35px;
+}
+
+#information p{
+    line-height:150%;
+    font-size:18.7px;
+    margin-bottom:40px;
+}
+
+#images {
+    float:right;
+    margin: 35px 35px 35px 35px;
+
+}
+
+#images p{
+    margin-bottom:40px;
+}
+
+#images img,video{
+    margin:auto;
+    display:block;
+}
+
+#resume{
+    margin:auto;
+    display:block;
+}
+
+
+
+#selected {
+    padding-bottom: 1px; 
+    background: #eeeeee;
+    position: relative;
+    top: 1px;
+}
+
+#selected a{
+    color: #003333;
+}
+
+
+h1 {
+    background-color:#F00000;
+    font-family:"Verdana", sans-serif;
+    font-style: italic;
+    text-shadow: 5px 5px #0000FF;
+    text-decoration:underline;
+    font-variant:small-caps;
+    font-size:60px;
+    color:#00FF00;
+    font-weight:bold;
+    margin: 0;
+    padding: 0 0 10px 10px;
+}
+
+h2{
+}
