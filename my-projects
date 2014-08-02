@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>My Projects</title>
+      <link rel="stylesheet" href="minestyle.css"></link>
+      <script src="javascript-home.js">
+      </script>
+    </head>
+
+    <body>
+      <a href="home.html"><img id="logo" width="160px" height="80px" src="logo3.png"></a></img>
+      <h1>My Most Recent Projects</h1>
+      <nav>
+	<ul>
+	  <li name="other-tab"><a href="home.html">Home</a></li>
+	  <li name="other-tab"><a href="about-me.html">About Me</a></li>
+	  <li id="selected"><a href="my-projects.html">My Projects</a></li>
+	  <li name="other-tab"><a href="my-interests-and-hobbies.html">My Interests and Hobbies</a></li>
+	  <li name="other-tab"><a href="contact-me.html">Contact Me!</a></li>	  	  
+
+	</ul>
+      </nav>
+
+      <section id="content">
+	<div id="information">
+          <h2>Minesweeper</h2>
+   	  <p>
+I programmed this game as the final course project for my introductory Java class. As a pretty experienced Minesweeper player, it was really interesting and fun to build a game that I knew so well. Programming to actual game into Java was not terribly difficult, but the graphic portion of the project presented a bit more of a challenge. After a bit of fiddling, I am proud of the final project which, along with the game board, includes a menu bar, a couple labels regarding the timer and number of bombs left, a restart button, and a couple menus before the game starts regarding the game settings. This was the first game that I programmed using Java, and I discovered that I really enjoy programming games. This project led me to program more games later on.</p>
+
+          <h2>LineShifter</h2>
+	  <p>This game is an original game that I programmed into my computer one day during vacation when I was a bit bored. The idea of the game is similar to the many games where the player moves a piece to avoid the lines, except in my game, instead of moving the piece, the player moves the lines themselves. After programming the game to a certain degree of satisfaction, I left the project there for a while by itself. However, a few months later, I revisited the game because I had become intrigued with artificial intelligence (AI) and computers automatically playing games. I added a method to allow the computer to play the game, using a developed algorithm for the computer to calculate the best possible moves that could be performed at any specific instance. This project provided me with my first glimpse into programming a computer to play a game. I used this as a stepping stone to my next project.</p>
+
+          <h2>Tetris</h2>
+          <p>Tetris is another game that I used to play a lot as a kid, so it was interesting thinking about how to approach programming the game with Java. Arguably one of the most difficult parts of programming the game was researching all the official rules of the game. The gameplay seems rather self-explanatory with just a few basic rules, but in an effort to get everything perfect, I tried to get every little detail correct like which way did each piece rotate and which orientation each piece started in. However, I discovered that multiple websites said different things, so my project probably has some unofficial gameplay features. After programming the game, I was intrigued by implementing an algorithm so that the computer could play the game as well. After reading a few papers on the subject, I was able to implement a version of an existing algorithm to play the game on my computer. Although the algorithm did not perform exactly as well as the one it was based off of (perhaps due to a slightly different calculation in the algorithm or slightly different implemented game rules), the computer was able to clear an average of a couple millions of lines each game! This project definitely included the most challenging bits of programming that I have experienced so far, but watching the computer play the game itself was a reward much worth the pains.</p>
+
+          <h2>Tetris T-shirt</h2>
+          <p>The Tetris T-shirt was a follow-up on the Tetris game that I programmed into the computer. The idea for the shirt came when I found a video of a tie that had a 3x10 LED display attached to a tie that illuminated the game of tetris. However, Tetris cannot realistically be played on a 3x10 board, so I wanted to see if I could create the project on a bigger scale with a larger display. Thus, 10 strips with 20 LED's on each strip were sewed onto a t-shirt. These strips were then connected to an Arduino Mini in addition to a portable battery. All I needed now was to write Arduino code. I found the Tetris tie's arduino code and implemented my algorithm in place of the current algorithm, which was rather terrible at playing tetris. Being new to the Arduino language, this task was fairly tedious and rather frustrating at times. However, I was eventually able to fully implement the algorithm in my Java tetris game into the t-shirt. After uploading the code onto the Arduino Mini and plugging both the Arduino Mini and the LED's into a portable battery, project was complete! You can see Tetris being played on my shirt in the video to the right.</p>
+	</div>
+
+	<div id="images">
+	  <p>
+	    <img src="minesweeper.PNG" alt="My Minesweeper Game" width="450px" height="300px">
+	  </p>
+	  <p>
+	    <img src="lineshifter.PNG" alt="My Original LineShifter Game" width="357px" height="357px">
+  	  </p>
+	  <p>
+	    <img src="tetris.PNG" alt="Programmed Tetris" width="200px" height="498px">
+	  </p>
+	  <p>
+            <video width="252px" height="441px" controls autoplay>
+              <source src="compressed2.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+	  </p>
+	</div>
+
+      </section>
+
+
+
+    </body>
+
+
+
+  </html>
