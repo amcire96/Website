@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>What I Do For Fun</title>
+      <link rel="stylesheet" href="minestyle.css"></link>
+      <script src="javascript-home.js">
+      </script>
+    </head>
+
+    <body>
+      <a href="home.html"><img id="logo" width="160px" height="80px" src="logo3.png"></a></img>
+      <h1>What I Do For Fun</h1>
+      <nav>
+	<ul>
+	  <li name="other-tab"><a href="home.html">Home</a></li>
+	  <li name="other-tab"><a href="about-me.html">About Me</a></li>
+	  <li name="other-tab"><a href="my-projects.html">My Projects</a></li>
+	  <li id="selected"><a href="my-interests-and-hobbies.html">My Interests and Hobbies</a></li>
+	  <li name="other-tab"><a href="contact-me.html">Contact Me!</a></li>	  	  
+
+	</ul>
+      </nav>
+
+      <section id="content">
+	<div id="information">
+	  <h2>My Interests and Hobbies</h2>
+	    <p>If you ever came over during the day, you would likely find me on my laptop. Even when I am not programming or during work, I enjoy browsing YouTube and ESPN's website to keep up with my favorite sports teams. As a Bostonian, I love my Red Sox, Patriots, and Celtics! It's been really fun and exciting to be in Boston since the start of the 21st century because all the sports teams have been so good; the Red Sox have won three championships, the Patriots have also won three, the Celtics won one, and even the Bruins have won one. Also, I'm a pretty big fantasy sports fanatic, especially fantasy football and fantasy basketball. Not only are fantasy sports great for keeping you up to date with the latest news in each sport, but it also teaches you lessons on when to sell high and buy low, sort of like stocks... but on a much more insignificant and entertaining scale!</p>
+
+            <p>One thing that I never would have imagined myself enjoying is teaching. But that is not the case anymore and I have been coaching and tutoring for the past few years. I started out coaching as a Counselor in Training for my soccer coach's Boston Soccer Academy summer camp, helping coach the girls players and also the younger boys. After that, I started volunteering to coach basketball along with my friends. My proudest coaching job was coaching a 7th and 8th grade boys. Not only was the job extremely fun, but I also learned a lot about good teaching techniques and how to balance fun and focus on improvement during practice. The team ended up losing just one game which happened to be the championship game in a heartbreaker. Since then, I coached high school boys volleyball and started tutoring. I tutored two boys, one in 7th grade and one in 8th grade. The tutoring, which was focused on math, surprisingly made me a better math student myself by forcing me to explain concepts and also do a lot of math in my head to check my students' answers.</p>
+
+	    <p>As for playing sports myself, I enjoy soccer, basketball, and volleyball. I am especially passionate about volleyball. I play the libero position which is the player in the mismatched jersey on each team and can only play in the back row. I've only played the sport for about three years but I've grown to love it and enjoy each moment that I'm on the court. I've had so many memories from volleyball already and am proud of all the accomplishments that my team and I have achieved in the past season: North Sectional Champions, North Sectional All-Star, All-State Honorable Mention, 1st Team Dual County League (DCL) All-Star, DCL Player of the Year, Boston Globe All-Scholastic, and Boston Herald All-Scholastic! In fact, the team only lost to one team all year; unfortunately that team beat us three times including once in the state championship semi-final game and went on to become state champions. It was a great run and the friendships forged on the court will never fade. ABVB for life!</p>
+	</div>
+
+	<div id="images">
+	  <p>
+	    <img src="trophy.jpg" alt="The World Series Trophy!" width="209px" height="156px">
+          </p>
+	  <p>
+	    <img src="TD.jpg" alt="The Celtic's TD Garden" width="209px" height="156px">
+          </p>
+	  <p>
+	    <img src="comed.jpg" alt="My 7th and 8th Graders" width="488px" height="366px">
+          <p>
+	    <img src="vbchamps.jpg" alt="Winning North Districts" width="255px" height="340px">
+	  </p>
+	</div>
+      </section>
+
+
+
+
+    </body>
+
+
+
+  </html>
