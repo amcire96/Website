@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Welcome to Eric Ma's Website!</title>
+      <link rel="stylesheet" href="minestyle.css">
+      <script src="javascript-home.js">
+      </script>
+    </head>
+
+    <body>
+      <a href="home.html"><img id="logo" width="160px" height="80px" src="logo3.png"></a></img>
+      <h1>To Begin With...</h1>
+      <nav>
+	<ul>
+	  <li id="selected"><a href="home.html">Home</a></li>
+	  <li name="other-tab"><a href="about-me.html">About Me</a></li>
+	  <li name="other-tab"><a href="my-projects.html">My Projects</a></li>
+	  <li name="other-tab"><a href="my-interests-and-hobbies.html">My Interests and Hobbies</a></li>
+	  <li name="other-tab"><a href="contact-me.html">Contact Me!</a></li>	  
+
+	</ul>
+      </nav>
+
+      <section id="content">
+	<div id="information">
+  	  <p>Hey there! Welcome to my personal website! On the site, you can discover a lot about me including my background, my previous projects, my hobbies, and my contact information. Have fun and feel free to contact me any time! Here is a link to my resume for a brief summary of the site: <br><br> <a href="Eric-Resume.pdf"><img src="resume.png" id="resume" width="280px" height="350px"> </a></p>
+
+	  <p>All the code for the projects that I mention on the site are available on my GitHub account: 
+<a href="https://github.com/amcire96/">https://github.com/amcire96/</a>.<p>
+
+	  <p>Look! I'm in the paper for volleyball: <a href="http://www.bostonglobe.com/sports/2014/06/21/boys-volleyball-all-scholastics/QW721gMzS7KgoVoTzPy4aO/story.html">Boston Globe</a>, <a href="http://bostonherald.com/sports/high_school/2014/06/boys_volleyball_all_scholastics">Boston Herald</a>, and the <a href="http://www.lowellsun.com/sports/ci_26060646/boys-volleyball-team">Lowell Sun</a>!</p>
+	</div>
+
+
+	<div id="images">
+
+	  <p><img src="me-sit.jpg" alt="Here's Me!" width="450px" height="300px"></p>
+	  <p><img src="me-boat.jpg" alt="Me Again" width="420px" height="345px"></p>
+
+	</div>
+      </section>
+
+
+
+
+
+    </body>
+
+
+
+  </html>
